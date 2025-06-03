@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-blue-900 flex items-center justify-center h-screen">
+  <div class="text-center">
+    <h1 class="text-black text-3xl mb-4">🐍 Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400" class="bg-yellow-900 border-4 border-blue-900"></canvas>
+    <div id="score" class="text-black mt-4 text-xl">Score: 0</div>
+    <button onclick="restartGame()" class="mt-4 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded">Restart</button>
+  </div>
+
+  <!-- Link JS -->
+  <script src="main.js"></script>
+</body>
+</html>
